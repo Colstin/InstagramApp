@@ -31,7 +31,6 @@ struct LoginView: View {
                     InputView(placeholder: "Enter your password",
                               text: $password,
                               isSecureField: true)
-                    
                 }
                 
                 
