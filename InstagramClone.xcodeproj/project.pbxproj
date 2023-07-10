@@ -24,6 +24,7 @@
 		D622B5582A58C3D60056F320 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622B5572A58C3D60056F320 /* CreatePasswordView.swift */; };
 		D622B55A2A58C5080056F320 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622B5592A58C5080056F320 /* CompleteSignUpView.swift */; };
 		D622B55C2A58C8910056F320 /* EmailUserPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622B55B2A58C8910056F320 /* EmailUserPassView.swift */; };
+		D6FC07B22A5CAADE0041CE0C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07B12A5CAADE0041CE0C /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		D622B5572A58C3D60056F320 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		D622B5592A58C5080056F320 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		D622B55B2A58C8910056F320 /* EmailUserPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUserPassView.swift; sourceTree = "<group>"; };
+		D6FC07B12A5CAADE0041CE0C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				D622B5462A58922F0056F320 /* UserStatView.swift */,
 				D622B5522A58BFAF0056F320 /* IGTextFieldModifier.swift */,
 				D622B55B2A58C8910056F320 /* EmailUserPassView.swift */,
+				D6FC07B12A5CAADE0041CE0C /* InputView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				D622B5292A5888940056F320 /* ContentView.swift in Sources */,
 				D622B54F2A58B60A0056F320 /* LoginView.swift in Sources */,
 				D622B5272A5888940056F320 /* InstagramCloneApp.swift in Sources */,
+				D6FC07B22A5CAADE0041CE0C /* InputView.swift in Sources */,
 				D622B5512A58BD4C0056F320 /* AddEmailView.swift in Sources */,
 				D622B5552A58C0D50056F320 /* CreateUsernameView.swift in Sources */,
 				D622B55A2A58C5080056F320 /* CompleteSignUpView.swift in Sources */,

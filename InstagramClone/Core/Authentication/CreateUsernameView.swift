@@ -13,21 +13,11 @@ struct CreateUsernameView: View {
     
     var body: some View {
         VStack(spacing: 14){
-            Text("Create username")
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding(.top)
             
-            Text("This will be your Instagram username")
-                .font(.footnote)
-                .foregroundColor(.gray)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 24)
-            
-            TextField("Username", text: $username)
-                .textInputAutocapitalization(.none)
-                .modifier(IGTextFieldModifier())
-                .padding(.top)
+            EmailUserPassView(title: "Create a Username",
+                              subtitle: "This will be your Instagram username",
+                              placeholder: "Username",
+                              text: $username)
             
             
             // Navigation Link to username

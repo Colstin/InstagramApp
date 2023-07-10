@@ -13,21 +13,13 @@ struct AddEmailView: View {
     
     var body: some View {
         VStack(spacing: 14){
-            Text("Add your email")
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding(.top)
             
-            Text("You'll use this email to sign in to your account")
-                .font(.footnote)
-                .foregroundColor(.gray)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 24)
+           EmailUserPassView(title: "Add your email",
+                             subtitle: "You'll use this email to sign in to your account",
+                             placeholder: "Email",
+                             text: $email)
             
-            TextField("Email", text: $email)
-                .textInputAutocapitalization(.none)
-                .modifier(IGTextFieldModifier())
-                .padding(.top)
+
             
             // Navigation Link to username
             NavigationLink {

@@ -13,22 +13,12 @@ struct CreatePasswordView: View {
     
     var body: some View {
         VStack(spacing: 14){
-            Text("Create a password")
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding(.top)
             
-            Text("Your password must be at least 6 characters in length")
-                .font(.footnote)
-                .foregroundColor(.gray)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 24)
-            
-            SecureField("Password", text: $password)
-                .textInputAutocapitalization(.none)
-                .modifier(IGTextFieldModifier())
-                .padding(.top)
-            
+            EmailUserPassView(title: "Create a Password",
+                              subtitle: "Your password must be at least 6 characters in length",
+                              placeholder: "Password",
+                              text: $password,
+                              isSecureField: true)
             
             // Navigation Link to username
             NavigationLink {

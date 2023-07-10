@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct EmailUserPassView: View {
-   // @State private var email = ""
-    var title: String
-    var subtitle: String
- 
-    
-    @Environment(\.dismiss) var dismiss
+    let title: String
+    let subtitle: String
+    let placeholder: String
+    @Binding var text: String
+    var isSecureField = false
+   
     
     var body: some View {
-        VStack(spacing: 14){
+        VStack {
             Text(title)
                 .font(.title2)
                 .fontWeight(.bold)
@@ -28,35 +28,15 @@ struct EmailUserPassView: View {
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 24)
             
-            //extField("Email", text: $email)
-                .textInputAutocapitalization(.none)
-                .modifier(IGTextFieldModifier())
-                .padding(.top)
-            
-            // Navigation Link to username
-            NavigationLink {
-                CreateUsernameView()
-                    .navigationBarBackButtonHidden()
-            } label: {
-                Text("Next")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .frame(width: 360, height: 44)
-                    .background(Color(.systemBlue))
-                    .cornerRadius(8)
-            }
-            .padding(.vertical)
-
-            Spacer()
-        }
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Image(systemName: "chevron.left")
-                    .imageScale(.large)
-                    .onTapGesture {
-                        dismiss()
-                    }
+            if isSecureField {
+                SecureField(placeholder, text: $text)
+                    .modifier(IGTextFieldModifier())
+                    .padding(.top)
+            } else {
+                TextField(placeholder, text: $text)
+                    .textInputAutocapitalization(.none)
+                    .modifier(IGTextFieldModifier())
+                    .padding(.top)
             }
         }
     }
@@ -64,6 +44,6 @@ struct EmailUserPassView: View {
 
 struct EmailUserPassView_Previews: PreviewProvider {
     static var previews: some View {
-        EmailUserPassView(title: "Email", subtitle: "You'll use this email to sign in to your account")
+        EmailUserPassView(title: " Title", subtitle: "What the title will do", placeholder: "placeholder", text: .constant(""))
     }
 }

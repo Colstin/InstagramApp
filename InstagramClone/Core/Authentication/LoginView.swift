@@ -24,12 +24,14 @@ struct LoginView: View {
                 
                 // Text Fields
                 VStack{
-                    TextField("Enter your email", text: $email)
-                        .textInputAutocapitalization(.none)
-                        .modifier(IGTextFieldModifier())
                     
-                    SecureField("Enter your password", text: $password)
-                        .modifier(IGTextFieldModifier())
+                    InputView(placeholder: "Enter your email",
+                              text: $email)
+                    
+                    InputView(placeholder: "Enter your password",
+                              text: $password,
+                              isSecureField: true)
+                    
                 }
                 
                 
