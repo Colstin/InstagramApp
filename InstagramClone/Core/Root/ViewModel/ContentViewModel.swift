@@ -9,6 +9,7 @@ import Foundation
 import Firebase
 import Combine
 
+
 class ContentViewModel: ObservableObject {
     
     private let service = AuthService.shared
@@ -17,7 +18,7 @@ class ContentViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
     
     init() {
-        
+        setupSubscribers()
     }
     
     func setupSubscribers() {
@@ -26,5 +27,4 @@ class ContentViewModel: ObservableObject {
         }
         .store(in: &cancellables)
     }
-    
 }

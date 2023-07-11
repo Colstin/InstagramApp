@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CreateUsernameView: View {
-    @State private var username = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: RegistrationViewModel
     
     var body: some View {
         VStack(spacing: 14){
@@ -17,7 +17,7 @@ struct CreateUsernameView: View {
             EmailUserPassView(title: "Create a Username",
                               subtitle: "This will be your Instagram username",
                               placeholder: "Username",
-                              text: $username)
+                              text: $viewModel.username)
             
             
             // Navigation Link to username
@@ -54,5 +54,6 @@ struct CreateUsernameView: View {
 struct CreateUsernameView_Previews: PreviewProvider {
     static var previews: some View {
         CreateUsernameView()
+            .environmentObject(RegistrationViewModel())
     }
 }

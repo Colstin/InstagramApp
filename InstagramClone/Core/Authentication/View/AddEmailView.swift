@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct AddEmailView: View {
-    @State private var email = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: RegistrationViewModel
     
     var body: some View {
         VStack(spacing: 14){
@@ -17,7 +17,7 @@ struct AddEmailView: View {
            EmailUserPassView(title: "Add your email",
                              subtitle: "You'll use this email to sign in to your account",
                              placeholder: "Email",
-                             text: $email)
+                             text: $viewModel.email)
             
 
             
@@ -53,5 +53,6 @@ struct AddEmailView: View {
 struct AddEmailView_Previews: PreviewProvider {
     static var previews: some View {
         AddEmailView()
+            .environmentObject(RegistrationViewModel())
     }
 }

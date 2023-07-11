@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CreatePasswordView: View {
-    @State private var password = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel: RegistrationViewModel
     
     var body: some View {
         VStack(spacing: 14){
@@ -17,7 +17,7 @@ struct CreatePasswordView: View {
             EmailUserPassView(title: "Create a Password",
                               subtitle: "Your password must be at least 6 characters in length",
                               placeholder: "Password",
-                              text: $password,
+                              text: $viewModel.password,
                               isSecureField: true)
             
             // Navigation Link to username
@@ -54,5 +54,6 @@ struct CreatePasswordView: View {
 struct CreatePasswordView_Previews: PreviewProvider {
     static var previews: some View {
         CreatePasswordView()
+            .environmentObject(RegistrationViewModel())
     }
 }

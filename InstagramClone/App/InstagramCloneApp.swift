@@ -20,9 +20,13 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct InstagramCloneApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    @StateObject var registrationViewModel = RegistrationViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(registrationViewModel)
         }
     }
 }
