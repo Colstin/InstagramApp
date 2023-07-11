@@ -29,6 +29,9 @@
 		D6FC07B62A5CB7A10041CE0C /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07B52A5CB7A10041CE0C /* CurrentUserProfileView.swift */; };
 		D6FC07B82A5CBEBB0041CE0C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07B72A5CBEBB0041CE0C /* Post.swift */; };
 		D6FC07BA2A5CCDB30041CE0C /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07B92A5CCDB30041CE0C /* PostGridView.swift */; };
+		D6FC07BC2A5CD1040041CE0C /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07BB2A5CD1040041CE0C /* ProfileHeaderView.swift */; };
+		D6FC07BE2A5CD6730041CE0C /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07BD2A5CD6730041CE0C /* UploadPostView.swift */; };
+		D6FC07C02A5CD9D10041CE0C /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC07BF2A5CD9D10041CE0C /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		D6FC07B52A5CB7A10041CE0C /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		D6FC07B72A5CBEBB0041CE0C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D6FC07B92A5CCDB30041CE0C /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		D6FC07BB2A5CD1040041CE0C /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		D6FC07BD2A5CD6730041CE0C /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		D6FC07BF2A5CD9D10041CE0C /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +98,6 @@
 				D622B5392A5888CF0056F320 /* Extensions */,
 				D622B5342A5888A40056F320 /* Model */,
 				D622B5352A5888A70056F320 /* Services */,
-				D622B5282A5888940056F320 /* ContentView.swift */,
 				D622B52A2A5888960056F320 /* Assets.xcassets */,
 				D622B52C2A5888960056F320 /* Preview Content */,
 			);
@@ -179,6 +184,7 @@
 			children = (
 				D6FC07B52A5CB7A10041CE0C /* CurrentUserProfileView.swift */,
 				D622B5432A588BAD0056F320 /* ProfileView.swift */,
+				D6FC07BB2A5CD1040041CE0C /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 		D622B53D2A58895E0056F320 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				D622B5282A5888940056F320 /* ContentView.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -209,6 +216,8 @@
 		D622B5402A5889D50056F320 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				D6FC07BD2A5CD6730041CE0C /* UploadPostView.swift */,
+				D6FC07BF2A5CD9D10041CE0C /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -296,9 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D622B54B2A589D830056F320 /* FeedCell.swift in Sources */,
+				D6FC07C02A5CD9D10041CE0C /* UploadPostViewModel.swift in Sources */,
 				D622B5442A588BAD0056F320 /* ProfileView.swift in Sources */,
 				D622B5292A5888940056F320 /* ContentView.swift in Sources */,
+				D6FC07BE2A5CD6730041CE0C /* UploadPostView.swift in Sources */,
 				D622B54F2A58B60A0056F320 /* LoginView.swift in Sources */,
+				D6FC07BC2A5CD1040041CE0C /* ProfileHeaderView.swift in Sources */,
 				D622B5272A5888940056F320 /* InstagramCloneApp.swift in Sources */,
 				D6FC07B22A5CAADE0041CE0C /* InputView.swift in Sources */,
 				D622B5512A58BD4C0056F320 /* AddEmailView.swift in Sources */,
