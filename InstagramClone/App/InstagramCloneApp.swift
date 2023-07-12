@@ -31,9 +31,8 @@ struct InstagramCloneApp: App {
     }
 }
 
-
 /* FINAL NOTES:
  1. We needed to create separate 2 ProfileView because we can't have 2 Navigation stacks so essentially 1 uses the navigation stack and one doesn't
- 
- 
+ 2. @MainActor - Very helpful alternative compared to using Dispatch.main.queue when working with the Async/ Await
+
  */
