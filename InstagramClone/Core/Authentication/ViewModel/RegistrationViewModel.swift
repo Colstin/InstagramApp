@@ -14,8 +14,13 @@ class RegistrationViewModel: ObservableObject {
     
     func createUser() async throws {
        try await AuthService.shared.createUser(email: email, password: password, username: username)
+        
+        // resets the signup textFields so they are blank after signing up a user
+        email = ""
+        password = ""
+        username = ""
+        
     }
-
 }
 
 
