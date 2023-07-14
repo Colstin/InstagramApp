@@ -10,11 +10,23 @@ import Firebase
 
 struct UserService {
     
+    //Will fetch any user in our app if we pass in their I.D
+    static func fetchUser(withUid uid: String) async throws -> User {
+        let snapshot = try await Firestore.firestore().collection("users").document(uid).getDocument()
+        //print("DEBUG: Snapshot data is \(snapshot.data())")
+        return try snapshot.data(as: User.self) // This Decodes data using User Data Model
+    }
+    
     static func fetchAllUsers() async throws -> [User] {
         let snapshot = try await Firestore.firestore().collection("users").getDocuments()
         return snapshot.documents.compactMap({ try? $0.data(as: User.self) }) // $0 represents what each element in the array would look like
     }
 }
+
+
+
+
+
 
 /* This is the traditional way that would work, (build an array and return an array)
  var users = [User]()
