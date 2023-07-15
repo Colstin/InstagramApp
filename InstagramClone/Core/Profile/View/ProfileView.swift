@@ -12,12 +12,13 @@ import SwiftUI
 struct ProfileView: View {
     
     @Environment(\.dismiss) var dismiss
-    
     let user: User
     
+    /* MARK: Mock data for PostGridView()
     var posts: [Post] {
         return Post.MOCK_POSTS.filter({ $0.user?.username == user.username})
     }
+     */
     
     var body: some View {
        
@@ -26,7 +27,7 @@ struct ProfileView: View {
             ProfileHeaderView(user: user)
             
             // Post Grid View
-            PostGridView(posts: posts)
+            PostGridView(user: user)
   
         } // MARK: These will be hidden in preview but will show since we access this screen in a Stack through the SearchView
         .navigationTitle(user.username)
