@@ -19,7 +19,6 @@ struct CreateUsernameView: View {
                               placeholder: "Username",
                               text: $viewModel.username)
             
-            
             // Navigation Link to username
             NavigationLink {
                 CreatePasswordView()
