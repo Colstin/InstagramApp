@@ -37,17 +37,11 @@
 ### Section 3: Users Feed, Users Search, Upload Posts!
 <div align="center">
 <img width="200" alt="Feed" title="Users Feed" src="https://github.com/Colstin/InstagramApp/assets/96356901/3bd38dab-55a3-4e62-a99b-564435399c3c">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="Search1" title="Search Users" src="https://github.com/Colstin/InstagramApp/assets/96356901/f28f4b01-b86e-43b4-8a38-d77358f6ab11">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="Search2" title="View a Profile" src="https://github.com/Colstin/InstagramApp/assets/96356901/ce1c207b-7dcd-4ff4-b96a-510627e06be1">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="Upload" title="Upload a Post" src="https://github.com/Colstin/InstagramApp/assets/96356901/22321a6d-c336-472d-812b-a313f13c39f5">
 </div>
 
