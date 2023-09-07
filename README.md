@@ -19,17 +19,11 @@
 ### Section 2: Create an Instagram account!
 <div align="center">
 <img width="200" alt="sign up 1" title="Add Email" src="https://github.com/Colstin/InstagramApp/assets/96356901/250f63a1-f13b-403c-995a-0ce6f9b7419b">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="sign up 2" title="Create Username" src="https://github.com/Colstin/InstagramApp/assets/96356901/bb8de440-19a7-4eca-a22f-757e312dfdd6">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="signup 3" title="Create Password" src="https://github.com/Colstin/InstagramApp/assets/96356901/5f907763-45de-4895-b372-f1be189c3ac3">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="signup 4" title="Sign up Complete" src="https://github.com/Colstin/InstagramApp/assets/96356901/2489a566-c35e-4967-a904-670a5ebf4917">
 </div>
 
@@ -49,9 +43,7 @@
 ### Section 4: View and Edit your Profile!
 <div align="center">
 <img width="200" alt="Profile1" title="Your Profile" src="https://github.com/Colstin/InstagramApp/assets/96356901/b8a1640d-c967-4cd0-8da0-3da7e90e5ae7">
-&nbsp;
-&nbsp;
-&nbsp;
+
 <img width="200" alt="Profile2" title="Edit Profile" src="https://github.com/Colstin/InstagramApp/assets/96356901/095299f0-8054-4098-a176-57b7dab36d6a">
 </div>
 
