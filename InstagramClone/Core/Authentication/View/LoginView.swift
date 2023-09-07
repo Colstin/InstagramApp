@@ -88,7 +88,6 @@ struct LoginView: View {
                 .padding(.top, 8)
                 
                 Spacer()
-                
                 Divider()
                 
                 NavigationLink {

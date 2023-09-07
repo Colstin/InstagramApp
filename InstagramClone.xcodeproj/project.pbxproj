@@ -72,6 +72,7 @@
 		D622B5572A58C3D60056F320 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		D622B5592A58C5080056F320 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		D622B55B2A58C8910056F320 /* EmailUserPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailUserPassView.swift; sourceTree = "<group>"; };
+		D6AAFCFD2AAA297600AF9676 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6B5562A2A5F4C1F00718A39 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		D6B5562E2A5F4D0F00718A39 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		D6B556302A6081E200718A39 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 		D622B51A2A5888940056F320 = {
 			isa = PBXGroup;
 			children = (
+				D6AAFCFD2AAA297600AF9676 /* README.md */,
 				D622B5252A5888940056F320 /* InstagramClone */,
 				D622B5242A5888940056F320 /* Products */,
 			);
