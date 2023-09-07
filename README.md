@@ -1,8 +1,8 @@
 #  Social Media - Instagram Replica App
 
 ** Version 1.0.0 **
-
-- Developed a social networking application reminiscent of Instagram with the ability to:
+- This is an Original project!
+- I Developed a social networking application reminiscent of Instagram with the ability to:
     - post photos 
     - search for users  
     - Create a profile 
@@ -65,12 +65,21 @@
 - - -
 ## Contributors
 - Colstin J Donaldson <Colstinj@gmail.com>
+- Linkedin: <https://www.linkedin.com/in/colstin-donaldson-976319237/>
 
 
 ## Acknowledgments 
 
 - This is an orginal project
 
+
+## Education
+- Western Governors University
+    - Bachelor in Computer Science 
+
+
+## Certifications
+- ITIL Foundations 4
 
 
 ## License & Copyright
